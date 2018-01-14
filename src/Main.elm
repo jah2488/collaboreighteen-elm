@@ -100,9 +100,9 @@ loadSkills : Cmd Msg
 loadSkills =
     let
         url =
-            "http://localhost:4000/api/all"
+            "https://collaboreighteen-api.herokuapp.com/api/all"
 
-        -- "https://collaboreighteen-api.herokuapp.com/api/all"
+        -- "http://localhost:4000/api/all"
         request =
             Http.get url decodeSkillPayload
     in
