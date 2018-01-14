@@ -1,0 +1,26 @@
+header {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande',
+    'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  margin: 20px 0;
+  width: 100%;
+}
+
+input[type='search'] {
+  font-size: 3rem;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.results .col .card {
+  margin: 1rem 0;
+}
+
+footer {
+  background: rgba(255, 255, 255, 0.9);
+}
