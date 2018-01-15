@@ -17,8 +17,23 @@ input[type='search'] {
   margin: 2rem 0;
 }
 
+input[type='search']::placeholder {
+  color: #d4d4d4;
+}
+
+.results {
+  margin-bottom: 5rem;
+}
 .results .col .card {
   margin: 1rem 0;
+}
+
+.list-group-item.list-group-item-hover:hover {
+  color: #78c2ad;
+  cursor: pointer;
+}
+.list-group-item .person-profile {
+  color: #5a5a5a;
 }
 
 footer {
